@@ -19,11 +19,11 @@ A local project manager built for indie developers to keep ideas, assets, tasks,
 
 ## 🧱 Tech Stack
 
-*  **Core Language:** C++
-*  **UI Layer:** (Planned) Qt / Dear ImGui
-*  **Data Storage:** Local filesystem (JSON / SQLite planned)
-*  **Build System:** CMake
-*  **Architecture:** Modular / component-based design
+*  **Core Language:** Rust (backend) • TypeScript (frontend)
+*  **UI Layer:** React 19 + Tauri WebView2
+*  **Data Storage:** Local filesystem (JSON -> serde_json / SQLite planned)
+*  **Build System:** Vite (frontend) • Cargo (Rust backend)
+*  **Architecture:** Desktop app (Tauri 2), offline-first, modular
 
 ---
 
